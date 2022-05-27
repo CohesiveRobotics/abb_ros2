@@ -66,7 +66,7 @@ MODULE TRob1Main
         EGMGetId egm_id;
 
         ! Setup the EGM communication.
-        EGMSetupUC ROB_1, egm_id, "default", "ROB_1", \Joint;
+        EGMSetupUC ROB_1, egm_id, "raw_test", "ROB_1", \Joint;
 
         ! Prepare for an EGM communication session.
         EGMActJoint egm_id
