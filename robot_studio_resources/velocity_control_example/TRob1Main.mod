@@ -76,7 +76,7 @@ MODULE TRob1Main
                     \J4:=egm_condition
                     \J5:=egm_condition
                     \J6:=egm_condition
-                    \MaxSpeedDeviation:=20.0;
+                    \MaxSpeedDeviation:=1000.0;
 
         WHILE TRUE DO
             ! Start the EGM communication session.
